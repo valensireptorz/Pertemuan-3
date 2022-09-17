@@ -1,79 +1,106 @@
 <!DOCTYPE html>
-<html>
-    <head>
-    <title>Navbar</title>
-    <style>
-   
-
-    
-</style>
-<link rel="stylesheet" href="style.css">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas ke 3</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 </head>
 <body>
-<nav>
-    <ul>
-        <li><img src="logo.png" height="70"></li>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Features</a>
-        <li><a href="#">Pages</a>
-        <li><a href="#">Portfolio</a>
-        <li><a href="#">Blog</a>
-        <li><a href="#">Shop</a>
-        <li><a href="#">Shortcodes</a>
-    </ul>
-</nav>
-
-<div class="container">
-
-<div class="col"1></div>
-<div class="col"2></div>
-<div class="col"3></div>
-
-
-
-
-
-<section id="harga" class="harga">
-
-<div class="card-main">
-    <div class="card-item">
-        <img height="100" src="ninja putih.jpg">
-        <h3 class="card-judul">
-        Ninja White 250cc 2013
-        </h3>
-        <p class="card-deskripsi">
-            Rp. 28.000.000
-        </p> 
-        <button class="button">Buat pesanan</button>  
-    </div>
-</div>
-<div class="card-main">
-    <div class="card-item">
-        <img height="100" src="ninja zx hitam.jpeg">
-        <h3 class="card-judul">
-            Ninja ZX Black 250cc 4sc
-        </h3>
-        <p class="card-deskripsi">
-            Rp. 110.530.000
-        </p>  
-        <button class="button">Buat Pesanan</button>   
-    </div>  
-</div>
-<div class="card-main">
-    <div class="card-item">
-        <img height="100" src="cbr 250.jpg">
-        <h3 class="card-judul">
-            CBR 250cc
-        </h3>
-        <p class="card-deskripsi">
-            Rp. 30.800.000
-        </p>   
-        <button class="button">Buat Pesanan</button>  
-    </div>  
-</div>
-</section>
-
-
-
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <img src="Logo_PENS.png" alt="" height="100" width="100">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="nav justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Portofolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Shortcodes</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="CBR.webp" class="card-img-top" alt="..." height="250" width="500">
+                <div class="card-body">
+                  <h5 class="card-title">CBR 250rr</h5>
+                  <p class="card-text">Tipe Mesin	4-Stroke, 8-Valve, Parallel Twin Cylinder
+                    Kapasitas Mesin	249.7 cc
+                    Sistem Suplai Bahan Bakar	PGM-FI
+                    Diameter X Langkah	62,0 x 41,4 mm
+                    Tipe Tranmisi	Manual, 6 Speed
+                    Rasio Kompresi	12,1:1
+                    Daya Maksimum	30 kW (41 PS) /13.000 rpm
+                    Torsi Maksimum	25 Nm (2,5 kgf.m)/11.000 rpm
+                    Tipe Starter	Electric
+                    Tipe Kopling	Multiple Wet Clutch with Coil Spring
+                    Sistem Pendingin Mesin	Liquid Cooled With Auto Electric Fan</p>
+                  <a href="#" class="btn btn-primary">BUY NOW</a>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="ninja 2013.jpg" class="card-img-top" alt="..." height="250" width="500">
+                <div class="card-body">
+                  <h5 class="card-title">Ninja 250cc 2013</h5>
+                  <p class="card-text">Harga OTR: Mulai Rp 63,8 juta
+                    Tanggal terakhir diproduksi: 23 Desember 2019
+                    Baterai: 12 V
+                    Material rangka bodi: Baja
+                    Model bodi: Sport
+                    Diameter silinder: 62 mm</p>
+                  <a href="#" class="btn btn-primary">BUY NOW</a>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="ninja zx hitam.jpeg" class="card-img-top" alt="..." height="250" width="600">
+                <div class="card-body">
+                  <h5 class="card-title">Ninja ZX ABS</h5>
+                  <p class="card-text">Kawasaki Ninja ZX25R akan ditenagai mesin 4 silinder 249 cc, DOHC, 16-valve. Mesin ini menghasilkan torsi dan rpm tinggi yang dapat digeber hingga 51 HP pada 15.500 rpm. Sedangkan torsinya berada di angka 22,9 Nm pada 14.500 rpm. Selain itu transmisi 6-percepatan yang diusungnya juga turut dilengkapi quick shifter.</p>
+                  <a href="#" class="btn btn-primary">BUY NOw</a>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="h2.jpg" class="card-img-top" alt="..." height="250" width="600">
+                <div class="card-body">
+                  <h5 class="card-title">Ninja H2</h5>
+                  <p class="card-text">Ninja H2 merupakan motor streetbike dengan engine supercharged 231PS yang mampu menciptakan power yang belum pernah ada sebelumnya, serta akselerasi yang mengesankan. Suara raungannya tidak akan terlupakan.</p>
+                  <a href="#" class="btn btn-primary">BUY NOW</a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
 </body>
 </html>
